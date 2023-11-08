@@ -16,5 +16,12 @@ namespace PublishersDG
         {
             InitializeComponent();
         }
+
+        private void editorialesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Publishers publishers = new Publishers();
+            publishers.ShowDialog();
+
+        }
     }
 }
